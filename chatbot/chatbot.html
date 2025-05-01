@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./chatbot/chatbot.css" />
+  <link rel="shortcut icon" href="./assets/logo-footer.png" type="image/x-icon">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FuriaBot</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header id="chat-header">
+      <div id="header-left">
+        <img src="./assets/logo-footer.png" alt="Logo" />
+        <span id="titulo">Aqui é FURIA</span>
+      </div>
+      <a href="./main/index.html"><button id="back-button">Voltar</button></a>
+    </header>
+
+    <div id="chat-container">
+      <section id="chat-messages-section">
+        <div id="chat-messages"></div>
+      </section>
+
+      <section id="chat-input-section">
+        <div id="chat-options-section">
+          <div id="chat-options"></div>
+        </div>
+
+        <div id="chat-input-area">
+          <input type="text" id="user-input" placeholder="Faça uma pergunta" />
+          <button id="send-button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path
+                d="M10.9134 13.0853C10.7223 12.8945 10.4945 12.7444 10.2438 12.6441L2.31381 9.46406C2.21912 9.42606 2.13833 9.36002 2.08226 9.27478C2.0262 9.18955 1.99755 9.0892 2.00016 8.98722C2.00278 8.88523 2.03652 8.78648 2.09688 8.70423C2.15723 8.62197 2.2413 8.56015 2.33781 8.52706L21.3378 2.02706C21.4264 1.99505 21.5223 1.98894 21.6143 2.00945C21.7062 2.02995 21.7904 2.07622 21.857 2.14283C21.9236 2.20945 21.9699 2.29366 21.9904 2.38561C22.0109 2.47756 22.0048 2.57345 21.9728 2.66206L15.4728 21.6621C15.4397 21.7586 15.3779 21.8426 15.2956 21.903C15.2134 21.9633 15.1146 21.9971 15.0126 21.9997C14.9107 22.0023 14.8103 21.9737 14.7251 21.9176C14.6398 21.8615 14.5738 21.7807 14.5358 21.6861L11.3558 13.7541C11.255 13.5036 11.1045 13.2761 10.9134 13.0853ZM10.9134 13.0853L21.8538 2.14706"
+                stroke="#F9D76A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="./chatbot/chatbot.js"></script>
+</body>
+
+</html>

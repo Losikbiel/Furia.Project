@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furia</title>
+  <link rel="shortcut icon" href="./assets/logo-footer.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" />
+</head>
+
+<body onscroll="onScroll()">
+  <nav id="navigation">
+    <div class="wrapper">
+      <a class="logo" href="#home">
+        <img src="./assets/logo-footer.png" alt="">
+      </a>
+
+      <div class="menu">
+        <ul>
+          <li><a onclick="closeMenu()" href="#home">Início</a></li>
+          <li><a onclick="closeMenu()" href="#services">Elenco</a></li>
+          <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+          <li><a onclick="closeMenu()" href="#contact">FanZone</a></li>
+        </ul>
+
+        <a class="button" onclick="closeMenu()" href="https://www.furia.gg/" target="_blank"> LOJA OFICIAL</a>
+
+        <ul class="social-links">
+          <li>
+            <a target="_blank" href="https://www.instagram.com/furiagg/"><svg width="24" height="24" viewBox="0 0 24 24"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                  stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                  stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M17.5 6.49997H17.51" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/furiagg/?locale=pt_BR"><svg width="24" height="24"
+                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18 1.99997H15C13.6739 1.99997 12.4021 2.52675 11.4645 3.46444C10.5268 4.40212 10 5.67389 10 6.99997V9.99997H7V14H10V22H14V14H17L18 9.99997H14V6.99997C14 6.73475 14.1054 6.4804 14.2929 6.29286C14.4804 6.10533 14.7348 5.99997 15 5.99997H18V1.99997Z"
+                  stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.youtube.com/@FURIAggCS"><svg width="24" height="24" viewBox="0 0 24 24"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.5396 6.42C22.4208 5.94541 22.1789 5.51057 21.8382 5.15941C21.4976 4.80824 21.0703 4.55318 20.5996 4.42C18.8796 4 11.9996 4 11.9996 4C11.9996 4 5.1196 4 3.3996 4.46C2.92884 4.59318 2.50157 4.84824 2.16094 5.19941C1.82031 5.55057 1.57838 5.98541 1.4596 6.46C1.14481 8.20556 0.990831 9.97631 0.999595 11.75C0.988374 13.537 1.14236 15.3213 1.4596 17.08C1.59055 17.5398 1.8379 17.9581 2.17774 18.2945C2.51758 18.6308 2.93842 18.8738 3.3996 19C5.1196 19.46 11.9996 19.46 11.9996 19.46C11.9996 19.46 18.8796 19.46 20.5996 19C21.0703 18.8668 21.4976 18.6118 21.8382 18.2606C22.1789 17.9094 22.4208 17.4746 22.5396 17C22.852 15.2676 23.0059 13.5103 22.9996 11.75C23.0108 9.96295 22.8568 8.1787 22.5396 6.42Z"
+                  stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M9.75 15.02L15.5 11.75L9.75 8.48001V15.02Z" stroke="#FFFAF1" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <button aria-expanded="false" aria-label="Abrir menu" onclick="openMenu()" class="open-menu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 20H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M10 12H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M18 28L30 28" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button aria-expanded="true" aria-label="Fechar menu" onclick="closeMenu()" class="close-menu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h4>CONQUISTE COM A FURIA 👊</h4>
+          <h1>Vitórias, desafios e momentos épicos
+        </header>
+
+        <div class="content">
+          <p>
+            Junte-se à FURIA e acompanhe o time que está dominando o cenário competitivo
+          </p>
+          <a class="button" href="./chatbot/chatbot.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M14 22.5L11.2 19H6C5.73478 19 5.48043 18.8946 5.29289 18.7071C5.10536 18.5196 5 18.2652 5 18V7.103C5 6.83778 5.10536 6.58343 5.29289 6.39589C5.48043 6.20836 5.73478 6.103 6 6.103H22C22.2652 6.103 22.5196 6.20836 22.7071 6.39589C22.8946 6.58343 23 6.83778 23 7.103V18C23 18.2652 22.8946 18.5196 22.7071 18.7071C22.5196 18.8946 22.2652 19 22 19H16.8L14 22.5ZM15.839 17H21V8.103H7V17H12.161L14 19.298L15.839 17ZM2 2H19V4H3V15H1V3C1 2.73478 1.10536 2.48043 1.29289 2.29289C1.48043 2.10536 1.73478 2 2 2Z"
+                fill="#252525" />
+            </svg>
+            PERGUNTE AO FURIABOT
+          </a>
+        </div>
+      </div>
+      <div class="col-b">
+        <img src="./assets/avatar.png"
+          alt="Soldado futurista com máscara de gás e fuzil, com bandeira da Ucrânia no braço, em frente a um círculo amarelo com fumaça ao fundo" />
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <h3>+7</h3>
+          <p>Principais Conquistas</p>
+        </div>
+
+        <div class="stat">
+          <h3>+593</h3>
+          <p>Participações Competitivas</p>
+        </div>
+
+        <div class="stat">
+          <h3>+1.843</h3>
+          <p>Jogos Realizados</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrapper">
+      <header>
+        <h4>Elenco</h4>
+        <h2>Conheça os Craques da FURIA:
+          O Elenco que conquista o CS
+        </h2>
+      </header>
+
+      <div class="content">
+        <div class="cards">
+          <div class="card">
+
+            <img src="./assets/Brasil.png" alt="Bandeira do Brasil">
+
+            <h3>falleN</h3>
+            <p>
+              Gabriel "FalleN" é um dos maiores nomes do CS, atual jogador da FURIA e criador de conteúdo na Twitch.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/Brasil.png" alt="Bandeira do Brasil">
+
+            <h3>yuurih</h3>
+            <p>
+              Com apenas 25 anos, Yuurih já é destaque no CS mundial, representando a FURIA nos maiores campeonatos.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/Letônia.png" alt="Bandeira da Letônia">
+
+            <h3>YEKINDAR</h3>
+            <p>
+              Um dos maiores talentos do CS, representando a FURIA e conquistando prêmios em torneios internacionais.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/Brasil.png" alt="Bandeira do Brasil">
+
+            <h3>KSCERATO</h3>
+            <p>
+              Se estabeleceu como um dos melhores jogadores do CS, defendendo a FURIA e criando conteúdo na Twitch.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/Cazaquistão.png" alt="Bandeira do Cazaquistão">
+
+            <h3>molodoy</h3>
+            <p>
+              molodoy é uma das estrelas em ascensão, da FURIA, jogador de Counter-Strike 2 do Cazaquistão.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/Brasil.png" alt="Bandeira do Brasil">
+
+            <h3>sidde</h3>
+            <p>
+              Sidnei "Sidde" Macedo é treinador profissional de Counter-Strike 2 e ex-treinador de CS: Global Offensive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h4>Sobre a Furia</h4>
+          <h2>Entenda quem somos e por que existimos</h2>
+        </header>
+
+        <div class="content">
+          <p>
+            Somos a FURIA, uma organização de esports que começou com o objetivo de representar o Brasil no CS:GO e se
+            tornou um movimento sociocultural. Com base em pilares como performance, lifestyle, conteúdo, business,
+            tecnologia e social, impactamos positivamente os contextos em que estamos presentes, unindo pessoas e
+            alimentando sonhos dentro e fora dos jogos.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-b">
+        <img src="./assets/Sobre a furia.png" alt="logo furia" />
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h2>FanZone: Sua jornada como fã começa aqui</h2>
+        </header>
+
+        <div class="content">
+          <p id="fanbase-text">
+            Participe das nossas pesquisas, compartilhe suas preferências e ajude a FURIA a criar experiências ainda
+            mais épicas para você.
+          </p>
+
+          <a class="button" href="https://forms.gle/CfhzyCWexbQmaHxv9" target="_blank">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path
+                d="M19 1.9751C19.552 1.9751 20 2.4231 20 2.9751V6.7321L18 8.7321V3.9751H4V19.9751H18V17.2171L20 15.2171V20.9751C20 21.5271 19.552 21.9751 19 21.9751H3C2.448 21.9751 2 21.5271 2 20.9751V2.9751C2 2.4231 2.448 1.9751 3 1.9751H19ZM20.778 8.7831L22.192 10.1971L14.414 17.9751L12.998 17.9731L13 16.5611L20.778 8.7831ZM12 11.9751V13.9751H7V11.9751H12ZM15 7.9751V9.9751H7V7.9751H15Z"
+                fill="#252525" />
+            </svg>
+            PARTICIPAR DA FANZONE
+          </a>
+        </div>
+      </div>
+
+      <div class="col-b">
+        <img src="./assets/c12963ef1efd41710b268bed1e8c90b3c7a0d202.gif" alt="Highlight" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrapper">
+      <div class="col-a">
+        <a class="logo" href="#home">
+          <img src="./assets/logo-footer.png" alt="Logo-FURIA-Footer" height="50px">
+        </a>
+
+        <p>
+          ©2025 - FURIA <br />
+          Todos os direitos reservados.
+        </p>
+      </div>
+
+      <div class="col-b">
+        <ul class="social-links">
+          <li>
+            <a target="_blank" href="https://www.instagram.com/furiagg/"><svg width="24" height="24" viewBox="0 0 24 24"
+                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17 1.99997H7C4.23858 1.99997 2 4.23855 2 6.99997V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V6.99997C22 4.23855 19.7614 1.99997 17 1.99997Z"
+                  stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M15.9997 11.3701C16.1231 12.2023 15.981 13.0523 15.5935 13.7991C15.206 14.5459 14.5929 15.1515 13.8413 15.5297C13.0898 15.908 12.2382 16.0397 11.4075 15.906C10.5768 15.7723 9.80947 15.3801 9.21455 14.7852C8.61962 14.1903 8.22744 13.4229 8.09377 12.5923C7.96011 11.7616 8.09177 10.91 8.47003 10.1584C8.84829 9.40691 9.45389 8.7938 10.2007 8.4063C10.9475 8.0188 11.7975 7.87665 12.6297 8.00006C13.4786 8.12594 14.2646 8.52152 14.8714 9.12836C15.4782 9.73521 15.8738 10.5211 15.9997 11.3701Z"
+                  stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M17.5 6.49997H17.51" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/furiagg/?locale=pt_BR">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M18 1.99997H15C13.6739 1.99997 12.4021 2.52675 11.4645 3.46444C10.5268 4.40212 10 5.67389 10 6.99997V9.99997H7V14H10V22H14V14H17L18 9.99997H14V6.99997C14 6.73475 14.1054 6.4804 14.2929 6.29286C14.4804 6.10533 14.7348 5.99997 15 5.99997H18V1.99997Z"
+                  stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.youtube.com/@FURIAggCS">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M22.5396 6.42C22.4208 5.94541 22.1789 5.51057 21.8382 5.15941C21.4976 4.80824 21.0703 4.55318 20.5996 4.42C18.8796 4 11.9996 4 11.9996 4C11.9996 4 5.1196 4 3.3996 4.46C2.92884 4.59318 2.50157 4.84824 2.16094 5.19941C1.82031 5.55057 1.57838 5.98541 1.4596 6.46C1.14481 8.20556 0.990831 9.97631 0.999595 11.75C0.988374 13.537 1.14236 15.3213 1.4596 17.08C1.59055 17.5398 1.8379 17.9581 2.17774 18.2945C2.51758 18.6308 2.93842 18.8738 3.3996 19C5.1196 19.46 11.9996 19.46 11.9996 19.46C11.9996 19.46 18.8796 19.46 20.5996 19C21.0703 18.8668 21.4976 18.6118 21.8382 18.2606C22.1789 17.9094 22.4208 17.4746 22.5396 17C22.852 15.2676 23.0059 13.5103 22.9996 11.75C23.0108 9.96295 22.8568 8.1787 22.5396 6.42Z"
+                  stroke="#FFFAF1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M9.75 15.02L15.5 11.75L9.75 8.48001V15.02Z" stroke="#FFFAF1" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <a id="backToTopButton" href="#home">
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="20" fill="#00856F" />
+      <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </a>
+
+  <!-- ScrollReaveal Lib -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
