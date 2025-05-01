@@ -275,7 +275,7 @@
     content: "";
     width: 100%;
     height: calc(76% + var(--nav-height));
-    background-image: url(/assets/wallpaperCS.png);
+    background-image: url(./assets/wallpaperCS.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@
   
   #contact {
     text-align: left;
-    background-image: url(/assets/contact-bg.png);
+    background-image: url(./assets/contact-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
