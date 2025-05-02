@@ -123,7 +123,7 @@
   
   /*===== CUSTOM COLORS ===============*/
   
-  #services .card circle {
+  #cast .card circle {
     fill: var(--brand-light);
   }
   
@@ -331,26 +331,26 @@
     line-height: 150%;
   }
   
-  /*===== SERVICES ===============*/
+  /*===== cast ===============*/
   
-  #services header h2 {
+  #cast header h2 {
     margin-bottom: 6rem;
   }
   
-  #services .cards {
+  #cast .cards {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
   }
   
-  #services .card {
+  #cast .card {
     padding: 2.4rem;
     text-align: left;
     background-color: #252525;
     border: 1px solid var(--primary-color);
     border-radius: 1.25rem;
   }
-  #services .card h3 {
+  #cast .card h3 {
     margin-block: 1.6rem;
     color: #ffffff;
   }
@@ -370,9 +370,9 @@
     margin-bottom: 6rem;
   }
   
-  /*===== CONTACT ===============*/
+  /*===== fanzone ===============*/
   
-  #contact {
+  #fanzone {
     text-align: left;
     background-image: url(./assets/contact-bg.png);
     background-position: center;
@@ -380,11 +380,11 @@
     background-repeat: no-repeat;
   }
   
-  #contact header {
+  #fanzone header {
     margin-bottom: 3.2rem;
   }
   
-  #contact p {
+  #fanzone p {
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
@@ -635,19 +635,19 @@
       width: 48rem;
     }
   
-    /*===== SERVICES ===============*/
-    #services h2 {
+    /*===== cast ===============*/
+    #cast h2 {
       width: 50rem;
       margin-inline: auto;
     }
   
-    #services .cards {
+    #cast .cards {
       flex-direction: row;
       flex-wrap: wrap;
       gap: 4rem;
     }
   
-    #services .card {
+    #cast .card {
       width: 30%;
       flex-grow: 1;
     }
@@ -670,12 +670,12 @@
   
     /*===== CONTACT ===============*/
   
-    #contact .wrapper {
+    #fanzone .wrapper {
       grid-template-columns: 1fr 57.5rem;
       grid-template-areas: "A B";
     }
   
-    #contact h2 {
+    #fanzone h2 {
       width: 40.4rem;
     }
   
