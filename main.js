@@ -2,9 +2,9 @@ function onScroll() {
     showNavOnScroll();
     showBackToTopOnScroll();
     activateMenuAtCurrentSection(home);
-    activateMenuAtCurrentSection(services);
+    activateMenuAtCurrentSection(cast);
     activateMenuAtCurrentSection(about);
-    activateMenuAtCurrentSection(contact);
+    activateMenuAtCurrentSection(fanzone);
   
     if (scrollY > 0) {
       document.querySelector("#navigation").classList.add("scroll");
@@ -81,9 +81,9 @@ function onScroll() {
       #home, 
       #home img,
       #home .stats, 
-      #services,
-      #services header,
-      #services .card
+      #cast,
+      #cast header,
+      #cast .card
       #about,
       #about .header
       #about .content`);
