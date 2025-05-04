@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/muhvQyr.png" alt="Descrição da imagem" style="max-width: 100%; height: auto;">
+<img src="https://i.imgur.com/muhvQyr.png" alt="Cover FuriaBot" style="width: 100%; max-width: 1000px; height: auto;">
 
 
 # Projeto Fúria - Desafio Técnico
