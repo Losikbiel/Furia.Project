@@ -27,10 +27,10 @@ Criar uma aplicação web que:
 - Código limpo e sem dependências externas
 - Implementação de um espaço para conhecer mais o Fã da FURIA
 
-## Comandos interativos do chatbot
+## Comandos interativos do FuriaBot
 
--Interação com tags (lineup, próximo jogo, eventos, como assistir)
--Opções de pergunta ("Quem são os jogadores do time?", "Quando é a próxima partida?" e "Onde posso assistir o próximo jogo?") 
+- Interação com tags; ("Quem são os jogadores do time?", "Quando é a próxima partida?" e "Onde posso assistir o próximo jogo?")
+- Opções de pergunta; (lineup, próximo jogo, eventos, como assistir)
 
 ## Links de prototipos navegáveis e documentação no Figma
 
