@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/muhvQyr.png" alt="Descrição da imagem">
+<img src="https://i.imgur.com/muhvQyr.png" alt="Descrição da imagem" height="1225px" width="2719px">
 
 
 # Projeto Fúria - Desafio Técnico
