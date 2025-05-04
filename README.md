@@ -1,4 +1,4 @@
-![Preview Projeto FURIA]([https://imgur.com/a/MePOMoK](https://i.imgur.com/muhvQyr.png))
+<img src="https://i.imgur.com/muhvQyr.png" alt="Descrição da imagem" width="400">
 
 
 # Projeto Fúria - Desafio Técnico
