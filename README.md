@@ -1,5 +1,6 @@
 <img src="https://i.imgur.com/yzjjzzv.png" >
 
+[![SITE FURIA](https://img.shields.io/badge/Acessar-Site-FFD700?style=for-the-badge&logoColor=252525)](https://losikbiel.github.io/Furia.Project/)
 
 # Projeto Fúria - Desafio Técnico
 
