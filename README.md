@@ -34,8 +34,11 @@ Criar uma aplicação web que:
 
 ## Links de prototipos navegáveis e documentação no Figma
 
-- Protótipo WEB: https://www.figma.com/proto/5b2IHiCb3Btspc89hldNPs/FURIA-PROJECT?node-id=1-6&t=entXfQIA2qOOyLvf-1
-- Protótipo Mobile: https://www.figma.com/proto/5b2IHiCb3Btspc89hldNPs/FURIA-PROJECT?node-id=30-128&t=entXfQIA2qOOyLvf-1
-- Documentação de estrutura por completo no Figma: https://www.figma.com/design/5b2IHiCb3Btspc89hldNPs/FURIA-PROJECT?node-id=1-2&t=entXfQIA2qOOyLvf-1 
+[Protótipo WEB](https://www.figma.com/proto/5b2IHiCb3Btspc89hldNPs/FURIA-PROJECT?node-id=1-6&t=entXfQIA2qOOyLvf-1)
+
+[Protótipo Mobile](https://www.figma.com/proto/5b2IHiCb3Btspc89hldNPs/FURIA-PROJECT?node-id=30-128&t=entXfQIA2qOOyLvf-1)
+
+[Documentação de estrutura por completo no Figma](https://www.figma.com/design/5b2IHiCb3Btspc89hldNPs/FURIA-PROJECT?node-id=1-2&t=entXfQIA2qOOyLvf-1)
+
 
 
